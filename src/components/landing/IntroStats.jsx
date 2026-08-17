@@ -38,18 +38,18 @@ export default function IntroStats() {
       )}
 
       {/* Register button + ticket animation */}
-      <div className="mt-8 flex items-center justify-center gap-2">
-        <div className="h-16 w-16 sm:h-20 sm:w-20">
-          <LottieAnimation
-            animationData={ticketAnimation}
-            className="h-full w-full"
-          />
-        </div>
+    <div className="mt-8 flex items-center justify-center">
+  <div className="-mr-3 z-10 h-20 w-20">
+    <LottieAnimation
+      animationData={ticketAnimation}
+      className="h-full w-full"
+    />
+  </div>
 
-        <a href="#register" className="btn-primary">
-          Register now
-        </a>
-      </div>
+  <a href="#register" className="btn-primary">
+    Register now
+  </a>
+</div>
     </section>
   );
 }
