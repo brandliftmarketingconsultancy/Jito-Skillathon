@@ -39,13 +39,13 @@ export const SPEAKERS = [
     name: 'Shashi Jain Dugar',
     role: 'Skill Session 1',
     bio: 'Discover how communication, confidence and executive presence can transform the way you are perceived and remembered. The session will focus on practical techniques for stronger communication, body language, professional presence and leadership—helping participants become more confident and impactful in professional situations.',
-    image: '/public/Shashi-jain .png',
+    image: '/Shashi-jain .png',
   },
   {
     name: 'Ashesh D. Shah',
     role: 'Skill Session 2',
     bio: 'Explore how AI can move beyond experimentation and become a practical tool for productivity, decision-making and business growth. Participants will discover real-world AI use cases, understand responsible AI adoption, and learn how to identify opportunities where AI can create measurable impact.',
-    image: '/public/ashesh-shah.png',
+    image: '/ashesh-shah.png',
   },
 ];
 
