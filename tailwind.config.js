@@ -4,7 +4,7 @@ export default {
 
   theme: {
     extend: {
-      colors: {
+     colors: {
   navy: {
     950: '#070D20',
     900: '#0B142F',
@@ -21,9 +21,14 @@ export default {
     700: '#1D46B8',
   },
 
-  white: {
+  // Keep Tailwind's default `white`
+  white: '#FFFFFF',
+
+  // Your custom light palette
+  bone: {
     100: '#F5F7FF',
     200: '#E1E7F5',
+    600: '#707D9C',
   },
 
   muted: {
@@ -31,7 +36,20 @@ export default {
     500: '#8B98B8',
     600: '#707D9C',
   },
+
+  // Compatibility with existing components
+  ink: {
+    950: '#070D20',
+    900: '#0B142F',
+    800: '#111D3D',
+    700: '#18274A',
+    600: '#24345A',
+  },
 },
+
+      /* =========================
+         FONTS
+      ========================== */
 
       fontFamily: {
         display: ['"Anton"', 'sans-serif'],
@@ -39,15 +57,27 @@ export default {
         mono: ['"JetBrains Mono"', 'monospace'],
       },
 
+      /* =========================
+         BACKGROUND IMAGES
+      ========================== */
+
       backgroundImage: {
         grain:
           "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E\")",
       },
 
+      /* =========================
+         KEYFRAMES
+      ========================== */
+
       keyframes: {
         flicker: {
-          '0%, 100%': { opacity: 1 },
-          '50%': { opacity: 0.85 },
+          '0%, 100%': {
+            opacity: 1,
+          },
+          '50%': {
+            opacity: 0.85,
+          },
         },
 
         rise: {
@@ -83,6 +113,10 @@ export default {
         },
       },
 
+      /* =========================
+         ANIMATIONS
+      ========================== */
+
       animation: {
         flicker: 'flicker 3.5s ease-in-out infinite',
         rise: 'rise 0.7s cubic-bezier(0.16,1,0.3,1) both',
@@ -92,4 +126,4 @@ export default {
   },
 
   plugins: [],
-}
+};

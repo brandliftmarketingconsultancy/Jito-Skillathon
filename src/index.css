@@ -4,7 +4,7 @@
 
 @layer base {
   * {
-    @apply border-ink-600/50;
+    @apply border-navy-600/50;
   }
 
   html {
@@ -12,7 +12,7 @@
   }
 
   body {
-    @apply bg-ink-900 text-bone-100 font-body antialiased;
+    @apply bg-navy-900 text-bone-100 font-body antialiased;
 
     background-image:
       radial-gradient(
@@ -68,7 +68,7 @@
   .card {
     @apply rounded-2xl
       border border-bone-100/10
-      bg-ink-800/60
+      bg-navy-800/60
       backdrop-blur-sm;
   }
 
@@ -76,11 +76,11 @@
     @apply w-full
       rounded-xl
       border border-bone-100/15
-      bg-ink-950/80
+      bg-navy-950/80
       px-4 py-3
       font-body
       text-bone-100
-      placeholder:text-bone-600
+      placeholder:text-muted-600
       focus:border-blue-500/60
       focus:outline-none
       focus:ring-2
