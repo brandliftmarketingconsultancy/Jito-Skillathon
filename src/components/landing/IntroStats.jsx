@@ -1,5 +1,7 @@
 import { EVENT_VENUE, EVENT_DATETIME, PRICE_GENERAL } from '../../config/event.js';
 import CountdownTimer from '../CountdownTimer.jsx';
+import LottieAnimation from './LottieAnimation.jsx';
+import ticketAnimation from '../../assets/lottie/ticket.json';
 
 const STATS = [
   { value: '4', label: 'Skill Sessions' },
@@ -18,7 +20,10 @@ export default function IntroStats() {
       <div className="mx-auto mt-10 flex max-w-lg items-center justify-center divide-x divide-bone-100/15">
         {STATS.map((s) => (
           <div key={s.label} className="px-6 first:pl-0 last:pr-0">
-            <div className="font-display text-3xl font-bold text-bone-100">{s.value}</div>
+            <div className="font-display text-3xl font-bold text-bone-100">
+              {s.value}
+            </div>
+
             <div className="mt-1 font-mono text-xs font-bold uppercase tracking-wide text-bone-500">
               {s.label}
             </div>
@@ -32,9 +37,19 @@ export default function IntroStats() {
         </div>
       )}
 
-      <a href="#register" className="btn-primary mt-8 inline-block">
-        Register now
-      </a>
+      {/* Register button + ticket animation */}
+      <div className="mt-8 flex items-center justify-center gap-2">
+        <div className="h-16 w-16 sm:h-20 sm:w-20">
+          <LottieAnimation
+            animationData={ticketAnimation}
+            className="h-full w-full"
+          />
+        </div>
+
+        <a href="#register" className="btn-primary">
+          Register now
+        </a>
+      </div>
     </section>
   );
 }
