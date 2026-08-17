@@ -20,7 +20,7 @@ export default function TicketQR({ ticket }) {
     <div className="card relative overflow-hidden p-6">
       <div
         className={`absolute right-0 top-0 px-4 py-1.5 font-mono text-[11px] font-bold uppercase tracking-wider
-          ${isVip ? 'bg-amber-500 text-ink-950' : 'bg-coral-500 text-ink-950'}`}
+          ${isVip ? 'bg-amber-500 text-ink-950' : 'bg-blue-500 text-ink-950'}`}
         style={{ borderBottomLeftRadius: '0.75rem' }}
       >
         {ticket.ticketType}
@@ -41,7 +41,7 @@ export default function TicketQR({ ticket }) {
       </p>
 
       {ticket.used && (
-        <div className="mt-3 rounded-lg bg-coral-500/10 px-3 py-2 text-center font-mono text-xs font-semibold text-coral-400">
+        <div className="mt-3 rounded-lg bg-blue-500/10 px-3 py-2 text-center font-mono text-xs font-semibold text-blue-400">
           Already checked in
         </div>
       )}

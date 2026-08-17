@@ -29,7 +29,7 @@ export default function CountdownTimer({ targetDate }) {
 
   if (time.isOver) {
     return (
-      <div className="font-display text-2xl tracking-wide text-coral-400">
+      <div className="font-display text-2xl tracking-wide text-blue-400">
         Doors are open — see you inside.
       </div>
     );
@@ -59,7 +59,7 @@ export default function CountdownTimer({ targetDate }) {
             </span>
           </div>
           {i < UNITS.length - 1 && (
-            <span className="mb-6 font-display text-xl text-coral-500/60 sm:mb-9 sm:text-2xl">:</span>
+            <span className="mb-6 font-display text-xl text-blue-500/60 sm:mb-9 sm:text-2xl">:</span>
           )}
         </div>
       ))}

@@ -50,7 +50,7 @@ export default function RetrieveTicket() {
           </div>
 
           {error && (
-            <p className="rounded-lg bg-coral-500/10 px-3 py-2 text-center font-body text-sm text-coral-400">
+            <p className="rounded-lg bg-blue-500/10 px-3 py-2 text-center font-body text-sm text-blue-400">
               {error}
             </p>
           )}

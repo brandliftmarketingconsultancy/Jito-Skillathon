@@ -13,7 +13,7 @@ export default function TicketStepper({ value, onChange, max = 10, min = 1, disa
           aria-label="Decrease ticket count"
           className="flex h-9 w-9 items-center justify-center rounded-full border border-bone-100/20
             text-lg font-bold text-bone-100 transition-colors
-            hover:border-coral-500/60 hover:text-coral-400
+            hover:border-blue-500/60 hover:text-blue-400
             disabled:opacity-30 disabled:pointer-events-none"
         >
           −
@@ -26,7 +26,7 @@ export default function TicketStepper({ value, onChange, max = 10, min = 1, disa
           aria-label="Increase ticket count"
           className="flex h-9 w-9 items-center justify-center rounded-full border border-bone-100/20
             text-lg font-bold text-bone-100 transition-colors
-            hover:border-coral-500/60 hover:text-coral-400
+            hover:border-blue-500/60 hover:text-blue-400
             disabled:opacity-30 disabled:pointer-events-none"
         >
           +
