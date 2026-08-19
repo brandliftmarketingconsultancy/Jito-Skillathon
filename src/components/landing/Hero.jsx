@@ -5,15 +5,16 @@ import aiNetwork from '../../assets/lottie/ai-network.json';
 
 export default function Hero() {
   return (
-    <section className="relative px-6 pt-16 pb-14 text-center">
+    <section className="relative px-6 pb-14 pt-28 text-center sm:pt-20">
 
-      {/* AI Lottie — top right */}
-      <div className="pointer-events-none absolute right-4 top-4 z-10 h-24 w-24 sm:right-8 sm:top-6 sm:h-32 sm:w-32 lg:right-12 lg:top-8 lg:h-40 lg:w-40">
-        <LottieAnimation
-          animationData={aiNetwork}
-          className="h-full w-full"
-        />
-      </div>
+     
+     {/* AI Lottie — top right, mirrors the logo's top-left position */}
+<div className="pointer-events-none absolute right-4 top-4 z-10 h-14 w-14 sm:right-8 sm:top-6 sm:h-24 sm:w-24 lg:right-12 lg:top-8 lg:h-32 lg:w-32">
+  <LottieAnimation
+    animationData={aiNetwork}
+    className="h-full w-full"
+  />
+</div>
 
       <p className="label-eyebrow">
         {EVENT_VENUE} &nbsp;|&nbsp; {EVENT_DATE_LABEL}
