@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { submitUpiPayment, ApiError } from '../lib/api.js';
-import paymentQR from '../assets/paymentQR.jpeg';
+// import paymentQR from '../assets/paymentQR.jpeg';
 
 const EVENT_NAME =
   import.meta.env.VITE_EVENT_NAME || 'Balaghat Event';
@@ -100,13 +100,13 @@ export default function PaymentPage() {
       const pricePerTicket =
         saved.ticketType === 'VIP'
           ? parseInt(
-              import.meta.env.VITE_PRICE_VIP || '1000',
-              10
-            )
+            import.meta.env.VITE_PRICE_VIP || '1000',
+            10
+          )
           : parseInt(
-              import.meta.env.VITE_PRICE_GENERAL || '500',
-              10
-            );
+            import.meta.env.VITE_PRICE_GENERAL || '500',
+            10
+          );
 
       const totalAmount =
         pricePerTicket * Number(saved.quantity || 0);
@@ -444,14 +444,12 @@ export default function PaymentPage() {
 
                   <div className="mx-auto max-w-[300px] rounded-[1.4rem] bg-white p-3 shadow-2xl shadow-black/30 sm:max-w-[320px] sm:p-4">
 
-                    <div className="overflow-hidden rounded-xl">
-
+                    <div className="mx-auto max-w-[280px] overflow-hidden rounded-xl bg-white p-3">
                       <img
-                        src={paymentQR}
+                        src="/jito-scanner.jpeg"
                         alt="UPI payment QR code"
-                        className="aspect-square w-full object-contain"
+                        className="h-auto w-full object-contain"
                       />
-
                     </div>
 
                   </div>
@@ -734,10 +732,9 @@ export default function PaymentPage() {
                         -translate-y-1/2
                         font-mono
                         text-[9px]
-                        ${
-                          upiTxnId.length === 12
-                            ? 'text-[#4ADE80]'
-                            : 'text-slate-700'
+                        ${upiTxnId.length === 12
+                          ? 'text-[#4ADE80]'
+                          : 'text-slate-700'
                         }
                       `}
                     >
