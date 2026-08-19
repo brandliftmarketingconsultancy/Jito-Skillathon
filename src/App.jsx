@@ -17,7 +17,7 @@ export default function App() {
         <img
           src="/jito-logo.png"
           alt="Event Logo"
-          className="h-12 w-auto sm:h-16"
+         className="h-20 w-auto sm:h-24"
         />
       </a>
 

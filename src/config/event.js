@@ -37,29 +37,27 @@ export const TESTIMONIALS = [
 export const SPEAKERS = [
   {
     name: 'Shashi Jain Dugar',
-    role: 'Skill Session 1',
-    bio: 'Discover how communication, confidence and executive presence can transform the way you are perceived and remembered. The session will focus on practical techniques for stronger communication, body language, professional presence and leadership—helping participants become more confident and impactful in professional situations.',
+    role: 'TED Speaker',
+    bio: 'TED Speaker CorporateTrainer & Motivational Speaker',
     image: '/Shashi-jain .png',
   },
   {
     name: 'Ashesh D. Shah',
-    role: 'Skill Session 2',
-    bio: 'Explore how AI can move beyond experimentation and become a practical tool for productivity, decision-making and business growth. Participants will discover real-world AI use cases, understand responsible AI adoption, and learn how to identify opportunities where AI can create measurable impact.',
+    role: 'AI Expert',
+    bio: 'AI Leadership, Corporate Training & Strategy & Governance',
     image: '/ashesh-shah.png',
   },
 ];
 
 export const AGENDA = [
-  { time: '9:30 am', label: 'Registration & Networking' },
-  { time: '10:00 am', label: 'Inaugural Ceremony' },
-  { time: '10:30 am – 12:00 pm', label: 'Skill Session 1' },
-  { time: '12:00 – 12:15 pm', label: 'Tea / Coffee Break' },
-  { time: '12:15 – 1:45 pm', label: 'Skill Session 2' },
-  { time: '1:45 – 2:30 pm', label: 'Lunch' },
-  { time: '2:30 – 4:00 pm', label: 'Skill Session 3' },
-  { time: '4:00 – 4:15 pm', label: 'Tea / Coffee Break' },
-  { time: '4:15 – 5:45 pm', label: 'Skill Session 4' },
-  { time: '5:45 – 6:00 pm', label: 'Vote of Thanks & Closing' },
+  { time: '2:00 – 2:30 pm', label: 'Registration & Networking' },
+  { time: '2:30 – 2:45 pm', label: 'Inaugural Ceremony' },
+  { time: '2:45 – 4:15 pm', label: 'Skill Session 1' },
+  { time: '4:15 – 4:45 pm', label: 'Hi-Tea & Networking' },
+  { time: '4:45 – 6:15 pm', label: 'Skill Session 2' },
+  { time: '6:15 – 6:30 pm', label: 'Interactive Session & Networking' },
+  { time: '6:30 – 7:00 pm', label: 'Vote of Thanks & Closing' },
+  { time: '7:00 – 8:30 pm', label: 'Dinner & Networking' },
 ];
 
 // TODO: confirm real perks per tier

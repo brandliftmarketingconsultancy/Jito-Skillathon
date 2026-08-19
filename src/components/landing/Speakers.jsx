@@ -7,15 +7,14 @@ export default function Speakers() {
 
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-          <p className="label-eyebrow">Facilitators</p>
+          <p className="label-eyebrow">Trainer</p>
 
           <h2 className="mt-2 font-display text-3xl uppercase tracking-wide text-bone-100 sm:text-4xl md:text-5xl">
-            Meet the facilitators
+            Meet the Trainer
           </h2>
 
           <p className="mx-auto mt-4 max-w-xl font-body text-sm leading-relaxed text-bone-400 sm:text-base">
-            Meet the experts leading our skill-focused sessions and helping
-            participants learn, grow, and perform better.
+            Learn from industry experts sharing practical insights, real-world experience, and strategies you can put into action.
           </p>
         </div>
 
