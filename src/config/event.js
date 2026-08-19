@@ -52,12 +52,13 @@ export const SPEAKERS = [
 export const AGENDA = [
   { time: '2:00 – 2:30 pm', label: 'Registration & Networking' },
   { time: '2:30 – 2:45 pm', label: 'Inaugural Ceremony' },
-  { time: '2:45 – 4:15 pm', label: 'Skill Session 1' },
-  { time: '4:15 – 4:45 pm', label: 'Hi-Tea & Networking' },
-  { time: '4:45 – 6:15 pm', label: 'Skill Session 2' },
-  { time: '6:15 – 6:30 pm', label: 'Interactive Session & Networking' },
-  { time: '6:30 – 7:00 pm', label: 'Vote of Thanks & Closing' },
-  { time: '7:00 – 8:30 pm', label: 'Dinner & Networking' },
+  { time: '2:45 – 3:30 pm', label: 'Lunch & Networking' },
+  { time: '3:30 – 5:00 pm', label: 'Skill Session 1' },
+  { time: '5:00 – 5:30 pm', label: 'Hi-Tea & Networking' },
+  { time: '5:30 – 7:00 pm', label: 'Skill Session 2' },
+  { time: '7:00 – 7:15 pm', label: 'Interactive Session & Networking' },
+  { time: '7:15 – 7:45 pm', label: 'Vote of Thanks & Closing' },
+  { time: '7:45 – 8:30 pm', label: 'Dinner & Networking' },
 ];
 
 // TODO: confirm real perks per tier

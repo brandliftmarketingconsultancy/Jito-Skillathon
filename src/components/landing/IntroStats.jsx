@@ -49,7 +49,7 @@ export default function IntroStats() {
             {EVENT_DATETIME && <CountdownTimer targetDate={EVENT_DATETIME} />}
 
             <p className="font-body text-sm text-bone-500">
-              Both tickets include Hi-Tea followed by Dinner
+              Both tickets include Hi-Tea followed by Lunch & Dinner
             </p>
           </div>
 
