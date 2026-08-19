@@ -51,11 +51,11 @@ export default function FloatingRegisterButton() {
       onClick={handleClick}
       aria-hidden={!visible}
       tabIndex={visible ? 0 : -1}
-      className={`fixed bottom-6 right-6 z-50 flex items-center gap-2 rounded-full border border-bone-100/15 bg-blue-950/90 px-5 py-3 font-mono text-xs font-bold uppercase tracking-[0.15em] text-bone-100 shadow-lg shadow-black/30 backdrop-blur transition-all duration-300 hover:border-orange-300/40 hover:text-orange-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300 focus-visible:ring-offset-2 focus-visible:ring-offset-stone-950 sm:px-6 sm:py-3.5 ${
-        visible
-          ? 'translate-y-0 opacity-100'
-          : 'pointer-events-none translate-y-4 opacity-0'
-      }`}
+   className={`fixed bottom-6 right-6 z-50 flex items-center gap-2 rounded-full border border-bone-100/15 bg-[#2F6BFF] px-5 py-3 font-mono text-xs font-bold uppercase tracking-[0.15em] text-bone-100 shadow-lg shadow-black/30 backdrop-blur transition-all duration-300 hover:border-orange-300/40 hover:text-orange-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300 focus-visible:ring-offset-2 focus-visible:ring-offset-stone-950 sm:px-6 sm:py-3.5 ${
+  visible
+    ? 'translate-y-0 opacity-100'
+    : 'pointer-events-none translate-y-4 opacity-0'
+}`}
     >
       Register
       <span aria-hidden="true">↓</span>

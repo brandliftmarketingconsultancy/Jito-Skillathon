@@ -10,9 +10,29 @@ export default function RegisterSection() {
       <div className="mt-10">
         <RegisterForm />
       </div>
-      <p className="mt-6 text-center font-mono text-xs text-bone-600">
-        <a href="/retrieve-ticket" className="underline">Already registered? Retrieve your ticket</a>
-      </p>
+      <div className="mt-6 text-center">
+  <p className="font-mono text-xs font-bold uppercase tracking-widest text-bone-500">
+    For any queries — Call / WhatsApp
+  </p>
+
+  <div className="mt-2 flex flex-wrap items-center justify-center gap-x-4 gap-y-1 font-mono text-sm">
+    <a
+      href="tel:9424922011"
+      className="text-bone-300 transition-colors hover:text-orange-300"
+    >
+      9424922011
+    </a>
+
+    <span className="text-bone-600">•</span>
+
+    <a
+      href="tel:9425138845"
+      className="text-bone-300 transition-colors hover:text-orange-300"
+    >
+      9425138845
+    </a>
+  </div>
+</div>
     </section>
   );
 }
