@@ -51,7 +51,7 @@ export default function Hero() {
   <span className="label-eyebrow text-bone-400">Platinum  Sponsor</span>
   <div className="h-px w-8 bg-bone-400/30 sm:h-8 sm:w-px" />
   <img
-    src="/public/sponser.jpeg"
+    src="/sponser.jpeg"
     alt="Title Sponsor: Grohair by Rajesh Chandan"
     className="h-11 sm:h-12"
   />
