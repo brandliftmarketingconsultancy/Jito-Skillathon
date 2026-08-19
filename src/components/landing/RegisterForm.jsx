@@ -4,7 +4,9 @@ import { MAX_TICKETS, TICKET_TIERS } from '../../config/event.js';
 
 export default function RegisterForm() {
   const navigate = useNavigate();
-  const [ticketType, setTicketType] = useState(TICKET_TIERS[0]?.key || 'General');
+const [ticketType, setTicketType] = useState(
+  TICKET_TIERS.find((t) => t.key === 'VIP')?.key || TICKET_TIERS[0]?.key || 'General'
+);
   const [form, setForm] = useState({ name: '', email: '', phone: '', city: '', quantity: 1 });
   const [error, setError] = useState('');
 
