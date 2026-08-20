@@ -48,12 +48,27 @@ export default function Hero() {
         {/* Title sponsor callout — sits just below the carousel */}
     {/* Title sponsor callout — sits just below the carousel */}
 <div className="mx-auto mt-5 flex w-fit flex-col items-center gap-2 sm:flex-row sm:gap-3">
-  <span className="label-eyebrow text-bone-400">Platinum  Sponsor</span>
+  <span className="label-eyebrow text-bone-400">Platinum Sponsor</span>
+
   <div className="h-px w-8 bg-bone-400/30 sm:h-8 sm:w-px" />
+
   <img
     src="/sponser.jpeg"
-    alt="Title Sponsor: Grohair by Rajesh Chandan"
+    alt="Platinum Sponsor: Grohair by Rajesh Chandan"
     className="h-11 sm:h-12"
+  />
+</div>
+
+{/* Gold Sponsor */}
+<div className="mx-auto mt-4 flex w-fit flex-col items-center gap-2 sm:flex-row sm:gap-3">
+  <span className="label-eyebrow text-bone-400">Gold Sponsor</span>
+
+  <div className="h-px w-8 bg-bone-400/30 sm:h-8 sm:w-px" />
+
+  <img
+    src="/asp-logo.png"
+    alt="Gold Sponsor"
+    className="h-9 sm:h-10"
   />
 </div>
 
