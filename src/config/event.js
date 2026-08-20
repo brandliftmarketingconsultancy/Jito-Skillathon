@@ -50,19 +50,16 @@ export const SPEAKERS = [
 ];
 
 export const AGENDA = [
-  { time: '2:00 – 2:30 pm', label: 'Registration & Networking' },
-  { time: '2:30 – 2:45 pm', label: 'Inaugural Ceremony' },
-  { time: '2:45 – 3:30 pm', label: 'Lunch & Networking' },
-  { time: '3:30 – 5:00 pm', label: 'Skill Session 1' },
-  { time: '5:00 – 5:30 pm', label: 'Hi-Tea & Networking' },
-  { time: '5:30 – 7:00 pm', label: 'Skill Session 2' },
-  { time: '7:00 – 7:15 pm', label: 'Interactive Session & Networking' },
-  { time: '7:15 – 7:45 pm', label: 'Vote of Thanks & Closing' },
-  { time: '7:45 – 8:30 pm', label: 'Dinner & Networking' },
+  { time: '2:00 – 2:30 pm', label: 'Inaugural Ceremony' },
+  { time: '2:30 – 4:00 pm', label: 'Skill Session 1' },
+  { time: '4:00 – 5:20 pm', label: 'Skill Session 2' },
+  { time: '5:20 – 5:40 pm', label: 'Hi-Tea ' },
+  { time: '5:45 – 7:15 pm', label: 'Skill Session 3' },
+  { time: '7:15 – 8:30 pm', label: 'Skill Session 4' },
+  { time: '8:30 pm', label: 'Dinner ' },
 ];
-
 // TODO: confirm real perks per tier
 export const TICKET_TIERS = [
-  { key: 'General', price: PRICE_GENERAL, perks: 'Access to all 4 skill sessions, tea/coffee breaks & lunch' },
+  { key: 'General', price: PRICE_GENERAL, perks: 'Access to all 4 skill sessions, tea/coffee breaks & dinner' },
   { key: 'VIP', price: PRICE_VIP, perks: 'Everything in General, plus priority seating & certificate' },
 ];
