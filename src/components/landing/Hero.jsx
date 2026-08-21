@@ -53,7 +53,7 @@ export default function Hero() {
   <div className="h-px w-8 bg-bone-400/30 sm:h-8 sm:w-px" />
 
   <img
-    src="/sponser.jpeg"
+    src="/sponser-1.jpeg"
     alt="Platinum Sponsor: Grohair by Rajesh Chandan"
     className="h-11 sm:h-12"
   />
@@ -66,7 +66,7 @@ export default function Hero() {
   <div className="h-px w-8 bg-bone-400/30 sm:h-8 sm:w-px" />
 
   <img
-    src="/asp-logo.png"
+    src="/asp.png"
     alt="Gold Sponsor"
     className="h-9 sm:h-10"
   />
