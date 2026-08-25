@@ -7,6 +7,7 @@ import Agenda from '../components/landing/Agenda.jsx';
 import RegisterSection from '../components/landing/RegisterSection.jsx';
 import LandingFooter from '../components/landing/LandingFooter.jsx';
 import FloatingRegisterButton from '../components/landing/FloatingRegisterButton.jsx';
+import FloatingContactButton from '../components/landing/FloatingContactButton.jsx';
 
 export default function LandingPage() {
   return (
@@ -20,6 +21,7 @@ export default function LandingPage() {
       <RegisterSection />
       <LandingFooter />
       <FloatingRegisterButton />
+      <FloatingContactButton />
     </div>
   );
 }
