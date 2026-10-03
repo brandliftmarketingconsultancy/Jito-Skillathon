@@ -446,7 +446,7 @@ export default function PaymentPage() {
 
                     <div className="mx-auto max-w-[280px] overflow-hidden rounded-xl bg-white p-3">
                       <img
-                        src="/public/git-qr.png"
+                        src="/git-qr.png"
                         alt="UPI payment QR code"
                         className="h-auto w-full object-contain"
                       />
