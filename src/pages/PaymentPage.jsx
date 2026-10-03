@@ -446,7 +446,7 @@ export default function PaymentPage() {
 
                     <div className="mx-auto max-w-[280px] overflow-hidden rounded-xl bg-white p-3">
                       <img
-                        src="/jito-scanner.jpeg"
+                        src="/public/git-qr.png"
                         alt="UPI payment QR code"
                         className="h-auto w-full object-contain"
                       />
@@ -454,8 +454,8 @@ export default function PaymentPage() {
 
                   </div>
 
-                  <p className="mt-3 text-center font-mono text-[8px] uppercase tracking-[0.18em] text-slate-600">
-                    Scan with any UPI application
+                  <p className="mt-6 text-center font-mono text-[12px] uppercase tracking-[0.18em] text-slate-100">
+                    My GitHub QR code for demo purposes
                   </p>
 
                 </div>
